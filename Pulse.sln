@@ -1,9 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35919.96 d17.13
+VisualStudioVersion = 17.13.35919.96
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Pulse", "Pulse\Pulse.pyproj", "{CA9246D5-BFEF-44EB-AAFE-CA3A0FAE6BBA}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{754FC069-D67B-A9D7-50A1-8D1CA196D8F1}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Pulse_Video", "Pulse_Video\Pulse_Video.pyproj", "{F165AB64-8AE8-467A-854C-0C4971FFF042}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,8 +16,8 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CA9246D5-BFEF-44EB-AAFE-CA3A0FAE6BBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CA9246D5-BFEF-44EB-AAFE-CA3A0FAE6BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F165AB64-8AE8-467A-854C-0C4971FFF042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F165AB64-8AE8-467A-854C-0C4971FFF042}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

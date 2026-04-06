@@ -1,10 +1,45 @@
-.vs/
-*.vcxproj.user
-*.VC.db
-*.opendb
-x64/
-Debug/
-Release/
+# 🔹 Виртуальное окружение
 venv/
+venv_cv/
+.env/
+
+# 🔹 Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# 🔹 Логи
+*.log
+
+# 🔹 IDE
+.vscode/
+.idea/
+.vs/
+
+# 🔹 Jupyter
+.ipynb_checkpoints/
+
+# 🔹 Системные файлы
+.DS_Store
+Thumbs.db
+
+# 🔹 Выходные данные проекта
+output/
+*.json
+*.csv
+
+# 🔹 Видео и изображения
+*.mp4
+*.avi
+*.mov
+*.jpg
+*.png
+
+# 🔹 Модели (если большие)
+*.pt
+*.pth
+
+# 🔹 Кэш PyTorch
+.cache/
+
